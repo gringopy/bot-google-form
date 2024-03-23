@@ -19,7 +19,7 @@ def getFbxz(url):
     }
 
     response = requests.get(
-        url,
+        url+'/viewform',
         headers=headers,
     )
 
